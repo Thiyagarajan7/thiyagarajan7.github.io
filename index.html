@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thiyagarajan | Senior DevOps Engineer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9fafb;
+      color: #1f2937;
+    }
+    header {
+      background: linear-gradient(135deg, #111827, #1f2937);
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    header h2 {
+      font-weight: 400;
+      color: #facc15;
+    }
+    header p {
+      max-width: 700px;
+      margin: 20px auto;
+      font-size: 18px;
+      color: #e5e7eb;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 22px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .primary {
+      background: #facc15;
+      color: #000;
+    }
+    .secondary {
+      border: 2px solid #facc15;
+      color: #facc15;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section h3 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    footer {
+      background: #111827;
+      color: #e5e7eb;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    footer a {
+      color: #facc15;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Thiyagarajan</h1>
+  <h2>Senior DevOps Engineer</h2>
+  <p>
+    Designing and building highly available, scalable, and secure cloud infrastructure
+    using AWS, Kubernetes, Terraform, and CI/CD automation.
+  </p>
+  <div class="buttons">
+    <a class="primary" href="#projects">Explore My Work</a>
+    <a class="secondary" href="https://thiyagarajan-r-resume.tiiny.site" target="_blank">View Resume</a>
+  </div>
+</header>
+
+<!-- Dark Mode Toggle -->
+<div style="text-align:center; margin-top:-30px;">
+  <button onclick="toggleDarkMode()" style="padding:8px 16px; border-radius:20px; border:none; cursor:pointer; font-weight:600;">🌙 Toggle Dark Mode</button>
+</div>
+
+<section>
+  <h3>About Me</h3>
+  <p>
+    I am a Senior DevOps Engineer with 7.5+ years of experience in building
+    production-grade cloud platforms. I specialize in AWS, Kubernetes, Terraform,
+    CI/CD pipelines, and infrastructure automation with a strong focus on
+    scalability, availability, and security.
+  </p>
+</section>
+
+<section>
+  <h3>Core Skills</h3>
+  <div class="skills">
+    <div class="card">AWS (EC2, VPC, IAM, RDS, S3, EKS, Route53)</div>
+    <div class="card">Kubernetes & Docker</div>
+    <div class="card">Terraform (Infrastructure as Code)</div>
+    <div class="card">CI/CD – Jenkins & GitHub Actions</div>
+    <div class="card">Git & Version Control</div>
+    <div class="card">High Availability & Scalability</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h3>Key Projects</h3>
+  <div class="projects">
+    <div class="card">
+      <h4>AWS EKS Production Cluster</h4>
+      <p>Designed highly available EKS clusters using Terraform with autoscaling and secure networking.</p>
+    </div>
+    <div class="card">
+      <h4>CI/CD Automation</h4>
+      <p>Implemented Jenkins and GitHub Actions pipelines for Dockerized microservices deployments.</p>
+    </div>
+    <div class="card">
+      <h4>Infrastructure Automation</h4>
+      <p>Automated AWS infrastructure provisioning with remote state and locking.</p>
+    </div>
+    <div class="card">
+      <h4>Cloud Cost Optimization</h4>
+      <p>Reduced cloud spend by identifying unused resources and right-sizing workloads.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h3>Contact Me</h3>
+  <div class="card">
+    <p>If you are looking for a Senior DevOps Engineer to build reliable, scalable, and secure cloud infrastructure, feel free to reach out.</p>
+    <p><strong>Email:</strong> <a href="mailto:thiyagarajan.devops@gmail.com">thiyagarajan.devops@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/thiyagarajan-ramakrishnan787/" target="_blank">Connect with me</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>
+    <a href="https://github.com/Thiyagarajan7" target="_blank">GitHub</a> |
+    <a href="https://www.linkedin.com/in/thiyagarajan-ramakrishnan787/" target="_blank">LinkedIn</a>
+  </p>
+  <p>© 2025 Thiyagarajan | Senior DevOps Engineer</p>
+</footer>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark');
+    }
+  </script>
+
+  <style>
+    body.dark {
+      background:#0f172a;
+      color:#e5e7eb;
+    }
+    body.dark .card {
+      background:#020617;
+      color:#e5e7eb;
+    }
+    body.dark header {
+      background: linear-gradient(135deg, #020617, #020617);
+    }
+  </style>
+</body>
+</html>
